@@ -1,6 +1,5 @@
-.github
-images
+dist
 node_modules
-build
 public
-*.json
+docs
+package-lock.json

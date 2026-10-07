@@ -1,0 +1,12 @@
+{
+  "name": "Md. Muhiminul Islam",
+  "short_name": "Muhiminul",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f5f0",
+  "theme_color": "#f7f5f0",
+  "icons": [
+    { "src": "/icons/android-icon-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/ms-icon-310x310.png", "sizes": "310x310", "type": "image/png" }
+  ]
+}

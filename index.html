@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Md. Muhiminul Islam: ML Researcher & Software Engineer</title>
+    <meta
+      name="description"
+      content="Md. Muhiminul Islam (Osim): researcher in event-based vision, spiking neural networks and state-space models; R&D software engineer in real-time computer vision; ICPC regional judge."
+    />
+    <meta name="author" content="Md. Muhiminul Islam" />
+    <meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <link rel="canonical" href="https://muhiminosim.github.io/" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/icons/apple-icon-180x180.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://muhiminosim.github.io/" />
+    <meta property="og:title" content="Md. Muhiminul Islam: ML Researcher & Software Engineer" />
+    <meta
+      property="og:description"
+      content="Event-based vision · spiking neural networks · state-space models · real-time computer vision · ICPC judge."
+    />
+    <meta property="og:image" content="https://muhiminosim.github.io/icons/muhiminul.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@MuhiminulOsim" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Md. Muhiminul Islam",
+        "alternateName": "Osim",
+        "url": "https://muhiminosim.github.io/",
+        "image": "https://muhiminosim.github.io/icons/muhiminul.png",
+        "email": "mailto:muhiminul@gmail.com",
+        "jobTitle": "Software Engineer (R&D)",
+        "worksFor": { "@type": "Organization", "name": "Kite Games Studio Ltd." },
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "Khulna University of Engineering & Technology" },
+          { "@type": "CollegeOrUniversity", "name": "Jahangirnagar University" }
+        ],
+        "knowsAbout": ["Event-based vision", "Spiking neural networks", "State-space models", "Computer vision", "Competitive programming"],
+        "sameAs": [
+          "https://github.com/MuhiminOsim",
+          "https://www.linkedin.com/in/muhimin-osim/",
+          "https://orcid.org/0009-0008-8524-6160",
+          "https://codeforces.com/profile/Muhimin_Osim"
+        ]
+      }
+    </script>
+
+    <!-- Apply saved / system theme before first paint to avoid a flash. -->
+    <script>
+      (function () {
+        var pref = "system";
+        try { pref = localStorage.getItem("theme") || "system"; } catch (e) {}
+        var dark = pref === "dark" || (pref === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+        if (dark) document.documentElement.classList.add("dark");
+      })();
+    </script>
+
+    <!-- Single Page Apps for GitHub Pages (https://github.com/rafgraph/spa-github-pages).
+         Restores the deep link that public/404.html encoded into the query string. -->
+    <script>
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) { return s.replace(/~and~/g, "&"); })
+            .join("?");
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
