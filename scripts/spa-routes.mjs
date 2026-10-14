@@ -9,6 +9,7 @@ const routes = [
   "projects",
   "education",
   "competitive",
+  "problem-setting",
   "contact",
 ];
 

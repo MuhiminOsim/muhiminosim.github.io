@@ -1,4 +1,5 @@
-import { ArrowUpRight, Gavel, Trophy } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Gavel, Trophy } from "lucide-react";
+import { Link } from "react-router-dom";
 import baps from "../assets/baps.png";
 import icpc from "../assets/icpc_logo.png";
 import sgipc from "../assets/SGIPC_logo.png";
@@ -71,14 +72,19 @@ export default function Competitive() {
       <Section
         title="Problems I've set"
         aside={
-          <a
-            href={PROBLEM_SETTING_SOURCE}
-            target="_blank"
-            rel="noreferrer"
-            className="link inline-flex items-center gap-1"
-          >
-            Source on GitHub <ArrowUpRight className="h-3.5 w-3.5" />
-          </a>
+          <span className="flex flex-wrap gap-4">
+            <Link to="/problem-setting" className="link inline-flex items-center gap-1">
+              Open as a page <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
+            <a
+              href={PROBLEM_SETTING_SOURCE}
+              target="_blank"
+              rel="noreferrer"
+              className="link inline-flex items-center gap-1"
+            >
+              Source on GitHub <ArrowUpRight className="h-3.5 w-3.5" />
+            </a>
+          </span>
         }
       >
         <ProblemSettingList />

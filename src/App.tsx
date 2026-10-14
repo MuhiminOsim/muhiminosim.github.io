@@ -7,6 +7,7 @@ import ExperiencePage from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Education from "./pages/Education";
 import Competitive from "./pages/Competitive";
+import ProblemSetting from "./pages/ProblemSetting";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="projects" element={<Projects />} />
         <Route path="education" element={<Education />} />
         <Route path="competitive" element={<Competitive />} />
+        <Route path="problem-setting" element={<ProblemSetting />} />
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Route>
