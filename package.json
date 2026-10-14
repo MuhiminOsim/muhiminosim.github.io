@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "prebuild": "node scripts/fetch-problem-setting.mjs"
   },
   "dependencies": {
     "framer-motion": "^14.0.0",

@@ -599,8 +599,6 @@ export const contests: { name: string; result: string; link?: string }[] = [
 ];
 
 export const problemSetting = {
-  listUrl:
-    "https://github.com/MuhiminOsim/Competitive-Programming/blob/master/Problem%20Setting/Problem-Setting-and-Judging.md",
   items: [
     {
       title: "ICPC Dhaka Regional",
@@ -611,56 +609,6 @@ export const problemSetting = {
     {
       title: "NCPC, IUPCs & online contests",
       detail: "Problem setter & judge on Toph and other platforms",
-    },
-  ],
-  history: [
-    {
-      contest: "ICPC Asia Dhaka Regional",
-      href: "https://github.com/MuhiminOsim/Competitive-Programming/blob/master/Problem%20Setting/Problem-Setting-and-Judging.md",
-      when: "2021 – 2025",
-      detail: "Problem setter & judge (BAPS)",
-    },
-    {
-      contest: "ICPC Mathura–Kanpur Regional Round",
-      href: "https://github.com/MuhiminOsim/Competitive-Programming/blob/master/Problem%20Setting/Problem-Setting-and-Judging.md",
-      when: "2022",
-      detail: "Problem setter & judge (BAPS)",
-    },
-    {
-      contest: "KUET IUPC 2025",
-      href: "https://github.com/baps-problemset-archive/kuet-iupc-2025",
-      when: "2025",
-      detail: "Problem setter · problem archive on GitHub",
-    },
-    {
-      contest: "UIU IUPC 2025",
-      href: "https://github.com/baps-problemset-archive/uiu-iupc-2025",
-      when: "2025",
-      detail: "Problem setter · set “Magnetic Bond”",
-    },
-    {
-      contest: "Intra KUET Programming Contest 2020",
-      href: "https://toph.co/c/intra-kuet-2020",
-      when: "Jul 2020",
-      detail: "Coordinator, setter & judge · set “Show Off!”",
-    },
-    {
-      contest: "National High School Programming Contest 2020: Preliminary",
-      href: "https://toph.co/c/nhspc2020-preliminary",
-      when: "Jun 2020",
-      detail: "Problem setter & judge · set “Osim's Maze”",
-    },
-    {
-      contest: "Toph Criterion 2020 Round 4",
-      href: "https://toph.co/c/criterion-2020-round-4",
-      when: "2020",
-      detail: "Problem setter & judge · set “Maximum Meetings”",
-    },
-    {
-      contest: "Tough Winter Spar 2019",
-      href: "https://toph.co/c/tough-winter-spar-2019",
-      when: "Dec 2019",
-      detail: "Problem setter & judge · set “Milad's Lost Tree”",
     },
   ],
 };

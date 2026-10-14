@@ -3,10 +3,12 @@ import baps from "../assets/baps.png";
 import icpc from "../assets/icpc_logo.png";
 import sgipc from "../assets/SGIPC_logo.png";
 import toph from "../assets/toph_logo.png";
+import ProblemSettingList from "../components/ProblemSettingList";
 import SocialIcon from "../components/SocialIcon";
 import { PageHeader, Reveal, Section } from "../components/ui";
 import { contests, leadership, problemSetting, ratings } from "../data/profile";
 import { useDocumentTitle } from "../hooks/useDocumentTitle";
+import { PROBLEM_SETTING_SOURCE } from "../lib/problemSetting";
 
 const settingLogos = [icpc, icpc, baps, toph];
 
@@ -46,19 +48,7 @@ export default function Competitive() {
         </div>
       </Section>
 
-      <Section
-        title="Problem setting & judging"
-        aside={
-          <a
-            href={problemSetting.listUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="link inline-flex items-center gap-1"
-          >
-            Full problem list <ArrowUpRight className="h-3.5 w-3.5" />
-          </a>
-        }
-      >
+      <Section title="Problem setting & judging">
         <div className="grid gap-4 sm:grid-cols-2">
           {problemSetting.items.map((p, i) => (
             <Reveal key={p.title}>
@@ -78,31 +68,20 @@ export default function Competitive() {
         </div>
       </Section>
 
-      <Section title="Contests I've set problems for">
-        <ul className="divide-y divide-line">
-          {problemSetting.history.map((h) => (
-            <li key={h.contest}>
-              <a
-                href={h.href}
-                target="_blank"
-                rel="noreferrer"
-                className="group flex flex-col gap-1 py-4 sm:flex-row sm:items-baseline sm:gap-6"
-              >
-                <span className="w-28 shrink-0 font-mono text-sm text-muted">{h.when}</span>
-                <span className="flex-1">
-                  <span className="font-medium transition-colors group-hover:text-accent">
-                    {h.contest}
-                  </span>
-                  <ArrowUpRight
-                    className="ml-1 inline h-3.5 w-3.5 text-muted transition-colors group-hover:text-accent"
-                    aria-hidden="true"
-                  />
-                  <span className="block text-sm text-muted">{h.detail}</span>
-                </span>
-              </a>
-            </li>
-          ))}
-        </ul>
+      <Section
+        title="Problems I've set"
+        aside={
+          <a
+            href={PROBLEM_SETTING_SOURCE}
+            target="_blank"
+            rel="noreferrer"
+            className="link inline-flex items-center gap-1"
+          >
+            Source on GitHub <ArrowUpRight className="h-3.5 w-3.5" />
+          </a>
+        }
+      >
+        <ProblemSettingList />
       </Section>
 
       <Section title="Contest results">
