@@ -699,10 +699,24 @@ export const personalProjects: PersonalProject[] = [
 
 export const repositories: { name: string; href: string; description: string; tags: string[] }[] = [
   {
-    name: "Competitive-Programming",
-    href: "https://github.com/MuhiminOsim/Competitive-Programming",
-    description: "Solutions, templates, and the full list of problems I've set and judged.",
-    tags: ["C++", "Algorithms"],
+    name: "RIPE-MambaSpike",
+    href: "https://github.com/MuhiminOsim/RIPE-MambaSpike",
+    description:
+      "Reference implementation of RIPE-MambaSpike, a resolution-independent spiking–state-space model for event-based vision that keeps a constant 0.87M parameters across input sizes.",
+    tags: ["Python", "PyTorch", "Research"],
+  },
+  {
+    name: "Collaborative-Code-Editor",
+    href: "https://github.com/MuhiminOsim/Collaborative-Code-Editor",
+    description: "A real-time collaborative code editor in the browser.",
+    tags: ["JavaScript", "TypeScript", "HTML", "CSS"],
+  },
+  {
+    name: "Jira-Issue-Tracker-for-IntelliJ-based-IDEs",
+    href: "https://github.com/MuhiminOsim/Jira-Issue-Tracker-for-IntelliJ-based-IDEs",
+    description:
+      "A JetBrains IDE plugin for managing Jira issues without leaving the editor, with a drag-and-drop sprint board, JQL search, comments and status transitions.",
+    tags: ["Kotlin", "IntelliJ Platform"],
   },
   {
     name: "Traffic-Speed-Violation-Detection-System",
@@ -711,28 +725,17 @@ export const repositories: { name: string; href: string; description: string; ta
     tags: ["Java"],
   },
   {
-    name: "Cricket-Game-Using-OpenGL",
-    href: "https://github.com/MuhiminOsim/Cricket-Game-Using-OpenGL",
-    description: "An academic cricket game built in C++ with OpenGL.",
-    tags: ["C++", "OpenGL"],
+    name: "Android-OpenGL-Shared-Context",
+    href: "https://github.com/MuhiminOsim/Android-OpenGL-Shared-Context",
+    description:
+      "An Android demo of shared EGL contexts, rendering the same textures on-screen with a TextureView and off-screen to a bitmap shown in Jetpack Compose.",
+    tags: ["Kotlin", "OpenGL ES", "Jetpack Compose"],
   },
   {
-    name: "KUET-Student-Welfare-Centre-Management-System",
-    href: "https://github.com/MuhiminOsim/KUET-Student-Welfare-Centre-Management-System",
-    description: "A web app for managing the activities of KUET's Student Welfare Centre.",
-    tags: ["Laravel", "PHP", "SQL"],
-  },
-  {
-    name: "Collaborative-Code-Editor",
-    href: "https://github.com/MuhiminOsim/Collaborative-Code-Editor",
-    description: "A real-time collaborative code editor in the browser.",
-    tags: ["JavaScript", "HTML", "CSS"],
-  },
-  {
-    name: "Academic-Projects",
-    href: "https://github.com/MuhiminOsim/Academic-Projects",
-    description: "A collection of course projects from my undergraduate studies.",
-    tags: ["Java", "CSS"],
+    name: "Competitive-Programming",
+    href: "https://github.com/MuhiminOsim/Competitive-Programming",
+    description: "Solutions, templates, and the full list of problems I've set and judged.",
+    tags: ["C++", "Algorithms"],
   },
 ];
 
