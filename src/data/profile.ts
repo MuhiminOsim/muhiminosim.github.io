@@ -462,7 +462,7 @@ export type Degree = {
   school: string;
   short: string;
   url: string;
-  logo?: "kuet" | "dc";
+  logo?: "ju" | "kuet" | "dc";
   period: string;
   grade: string;
   notes: string[];
@@ -475,6 +475,7 @@ export const education: Degree[] = [
     school: "Jahangirnagar University",
     short: "JU",
     url: "https://juniv.edu/",
+    logo: "ju",
     period: "Expected Jan 2027",
     grade: "CGPA 4.00 / 4.00 (so far)",
     notes: [

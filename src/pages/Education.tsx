@@ -3,13 +3,14 @@ import algoexpertLogo from "../assets/algoexpert_logo.png";
 import dcLogo from "../assets/DC_logo.png";
 import dlaiLogo from "../assets/deeplearning_ai_logo.png";
 import icpcLogo from "../assets/icpc_logo.png";
+import juLogo from "../assets/JU_logo.svg";
 import kuetLogo from "../assets/kuet_logo.png";
 import stanfordLogo from "../assets/stanford_logo.png";
 import { PageHeader, Reveal, Section } from "../components/ui";
 import { certifications, education, honors } from "../data/profile";
 import { useDocumentTitle } from "../hooks/useDocumentTitle";
 
-const schoolLogos = { kuet: kuetLogo, dc: dcLogo } as const;
+const schoolLogos = { ju: juLogo, kuet: kuetLogo, dc: dcLogo } as const;
 const certLogos = {
   stanford: stanfordLogo,
   dlai: dlaiLogo,
