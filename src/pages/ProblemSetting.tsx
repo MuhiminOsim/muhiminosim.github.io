@@ -15,9 +15,9 @@ export default function ProblemSetting() {
   return (
     <>
       <PageHeader eyebrow="Problem setting & judging" title="Problems I've set">
-        Problems I've written for ICPC regional contests and national and inter-university
-        programming contests in Bangladesh, as a member of the Bangladesh Association of Problem
-        Setters (BAPS).
+        Problems I've written for ICPC regional contests in Bangladesh and India, and for national
+        and inter-university programming contests in Bangladesh, as a member of the Bangladesh
+        Association of Problem Setters (BAPS).
       </PageHeader>
 
       <Reveal>

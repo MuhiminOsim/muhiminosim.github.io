@@ -19,7 +19,7 @@ export default function Competitive() {
     <>
       <PageHeader eyebrow="Competitive programming" title="Solving and setting problems">
         I've solved more than 2,500 algorithmic problems in C/C++. I now write and judge problems
-        for ICPC regionals and national contests in Bangladesh.
+        for ICPC regionals in Bangladesh and India, and for national contests in Bangladesh.
       </PageHeader>
 
       <Section title="Ratings">
