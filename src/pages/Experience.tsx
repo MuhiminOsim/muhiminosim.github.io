@@ -2,12 +2,14 @@ import { ArrowUpRight, MapPin } from "lucide-react";
 import bdoiLogo from "../assets/bdio_logo.svg";
 import ikpcLogo from "../assets/ikpc_logo.jpg";
 import kgsLogo from "../assets/KGS_logo.png";
+import seuLogo from "../assets/SEU_logo.png";
 import sgipcLogo from "../assets/SGIPC_logo.png";
 import { Chip, PageHeader, Reveal, Section } from "../components/ui";
 import { experience, leadership, volunteering } from "../data/profile";
 
 const logos: Record<string, string> = {
   kgs: kgsLogo,
+  seu: seuLogo,
   sgipc: sgipcLogo,
   ikpc: ikpcLogo,
   bdoi: bdoiLogo,

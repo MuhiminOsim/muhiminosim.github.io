@@ -309,6 +309,7 @@ export const experience: Experience[] = [
   {
     role: "Adjunct Lecturer",
     org: "Southeast University",
+    logo: "seu",
     orgUrl: "https://seu.edu.bd/",
     location: "Dhaka, Bangladesh",
     period: "Jul 2025 – Present",
