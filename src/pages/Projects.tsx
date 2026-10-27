@@ -80,7 +80,7 @@ export default function Projects() {
             <Reveal key={p.name}>
               <article className="card grid gap-6 p-6 sm:p-8 lg:grid-cols-[1.1fr_1fr]">
                 <div className="flex flex-col">
-                  <p className="eyebrow">Personal project · {p.tagline}</p>
+                  <p className="eyebrow">{p.tagline}</p>
                   <h3 className="mt-2 font-serif text-2xl font-medium leading-tight sm:text-3xl">
                     {p.name}
                   </h3>
