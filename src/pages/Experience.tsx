@@ -99,14 +99,18 @@ export default function ExperiencePage() {
                     </dl>
                   )}
 
-                  <ul className="mt-6 grid gap-x-8 gap-y-4 md:grid-cols-2">
-                    {e.points.map((p) => (
-                      <li key={p.text} className="text-[0.95rem] leading-relaxed">
-                        {p.title && <span className="block text-sm font-semibold">{p.title}</span>}
-                        <span className={p.title ? "text-muted" : ""}>{p.text}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  {e.points.length > 0 && (
+                    <ul className="mt-6 grid gap-x-8 gap-y-4 md:grid-cols-2">
+                      {e.points.map((p) => (
+                        <li key={p.text} className="text-[0.95rem] leading-relaxed">
+                          {p.title && (
+                            <span className="block text-sm font-semibold">{p.title}</span>
+                          )}
+                          <span className={p.title ? "text-muted" : ""}>{p.text}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
 
                   <div className="mt-6 flex flex-wrap gap-2">
                     {e.tags.map((t) => (

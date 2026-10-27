@@ -31,7 +31,7 @@ export const person = {
   roles: ["ML Researcher", "R&D Software Engineer", "ICPC Regional Judge"],
   headline: "I study how machines see the world through events, spikes and state spaces.",
   summary:
-    "I'm an M.Sc. student in Computer Science & Engineering at Jahangirnagar University. My research is on event-based vision with spiking neural networks and state-space models (Mamba), focusing on parameter efficiency and robustness to real sensor imperfections. I've also spent four years as an R&D software engineer building real-time computer vision and GPU rendering for Android apps with over 50 million users. I teach Advanced Java at Southeast University and set problems for ICPC regional contests.",
+    "I'm an M.Sc. student in Computer Science & Engineering at Jahangirnagar University. My research is on event-based vision with spiking neural networks and state-space models (Mamba), focusing on parameter efficiency and robustness to real sensor imperfections. I've also spent four years as an R&D software engineer building real-time computer vision and GPU rendering for Android apps with over 50 million users. I teach undergraduate computer science courses at Southeast University and set problems for ICPC regional contests.",
   location: "Dhaka, Bangladesh",
   email: "muhiminul@gmail.com",
   /** Set to a file in /public (e.g. "/Md_Muhiminul_Islam_CV.pdf") to show the CV download button. */
@@ -135,7 +135,7 @@ export const currently = [
     text: "Building a corruption-robustness benchmark for event-based visual classification (M.Sc., JU).",
   },
   { label: "Under review", text: "RIPE-MambaSpike, submitted to ICLR 2027." },
-  { label: "Teaching", text: "Advanced Java & Lab, Southeast University." },
+  { label: "Teaching", text: "Undergraduate computer science courses, Southeast University." },
   { label: "Engineering", text: "Real-time CV and GPU rendering R&D at Kite Games Studio." },
 ];
 
@@ -314,13 +314,9 @@ export const experience: Experience[] = [
     location: "Dhaka, Bangladesh",
     period: "Jul 2025 – Present",
     current: true,
-    summary: "Teaching Advanced Java & Laboratory to undergraduate CSE students.",
-    points: [
-      {
-        text: "Teach Advanced Java and its laboratory course, guiding students to build enterprise-grade Java applications.",
-      },
-    ],
-    tags: ["Java", "Teaching", "Software design"],
+    summary: "Teaching undergraduate computer science courses.",
+    points: [],
+    tags: ["Teaching", "Computer science"],
   },
   {
     role: "Software Engineer (R&D)",

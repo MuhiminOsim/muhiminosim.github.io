@@ -14,7 +14,7 @@ export default function Projects() {
         pipelines, along with my own personal, academic and open-source work.
       </PageHeader>
 
-      <Section title="Apps">
+      <Section title="Apps I built at Kite Games Studio Ltd.">
         <div className="grid gap-6 lg:grid-cols-3">
           {projects.map((p, i) => (
             <Reveal key={p.name} delay={i * 0.05} className="h-full">
@@ -63,7 +63,7 @@ export default function Projects() {
       </Section>
 
       <Section
-        title="Code & academic and personal projects"
+        title="Personal Projects"
         aside={
           <a
             href={github.href}
